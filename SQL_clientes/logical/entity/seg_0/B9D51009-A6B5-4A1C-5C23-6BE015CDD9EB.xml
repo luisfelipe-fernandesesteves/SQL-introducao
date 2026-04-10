@@ -1,0 +1,30 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B9D51009-A6B5-4A1C-5C23-6BE015CDD9EB" name="TELEFONE">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-04-10 11:09:01 UTC</createdTime>
+<ownerDesignName>SQL_clientes</ownerDesignName>
+<engineerTo>
+<item key="58EE071A-4473-9917-86DF-10C1B1C732AF" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Attribute_1" id="19DC29C2-DAC0-B6AE-79B6-59E190B7206A">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-04-10 11:16:30 UTC</createdTime>
+<ownerDesignName>SQL_clientes</ownerDesignName>
+<engineerTo>
+<item key="58EE071A-4473-9917-86DF-10C1B1C732AF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

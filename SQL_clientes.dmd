@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="SQL_clientes" id="2D03BAA9-A1D6-5591-B1FC-3767CF674A9A" version="3.5">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-04-10 11:04:55 UTC</createdTime>
+<ownerDesignName>SQL_clientes</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>2D03BAA9-A1D6-5591-B1FC-3767CF674A9A</designId>
+</OSDM_Design>
