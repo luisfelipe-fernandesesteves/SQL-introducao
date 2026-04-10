@@ -1,0 +1,175 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7AEF922F-9324-A625-8935-7FAB7C7CC757" name="TB_CLIENTES">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-04-10 11:07:49 UTC</createdTime>
+<ownerDesignName>modelagem_relacional</ownerDesignName>
+<engineerTo>
+<item key="58EE071A-4473-9917-86DF-10C1B1C732AF" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cliente_id" id="05AE2B21-9511-06CF-B4AB-9FEAA763515A">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-04-10 11:21:54 UTC</createdTime>
+<ownerDesignName>modelagem_relacional</ownerDesignName>
+<engineerTo>
+<item key="58EE071A-4473-9917-86DF-10C1B1C732AF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nome" id="A41BB811-88C1-349E-B2C0-1CE92E45FCCC">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-04-10 11:10:28 UTC</createdTime>
+<ownerDesignName>modelagem_relacional</ownerDesignName>
+<engineerTo>
+<item key="58EE071A-4473-9917-86DF-10C1B1C732AF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="logradouro" id="68ADA434-2B7B-B8E7-6A2B-02182F06529D">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-04-10 11:10:59 UTC</createdTime>
+<ownerDesignName>modelagem_relacional</ownerDesignName>
+<engineerTo>
+<item key="58EE071A-4473-9917-86DF-10C1B1C732AF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="numero" id="05C92433-AFF6-5F6D-7C98-B1DB0312B401">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-04-10 11:11:15 UTC</createdTime>
+<ownerDesignName>modelagem_relacional</ownerDesignName>
+<engineerTo>
+<item key="58EE071A-4473-9917-86DF-10C1B1C732AF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="complemento" id="9E52D7DB-2FF3-DFDF-1E08-7EA4D78B2442">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-04-10 11:11:29 UTC</createdTime>
+<ownerDesignName>modelagem_relacional</ownerDesignName>
+<engineerTo>
+<item key="58EE071A-4473-9917-86DF-10C1B1C732AF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="bairro" id="B550B1AC-4B5A-42F8-3D4A-C43A65F904A9">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-04-10 11:11:41 UTC</createdTime>
+<ownerDesignName>modelagem_relacional</ownerDesignName>
+<engineerTo>
+<item key="58EE071A-4473-9917-86DF-10C1B1C732AF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="uf" id="FA865B10-7318-DCF1-FD46-467162D1599A">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-04-10 11:11:59 UTC</createdTime>
+<ownerDesignName>modelagem_relacional</ownerDesignName>
+<engineerTo>
+<item key="58EE071A-4473-9917-86DF-10C1B1C732AF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cep" id="82EF48AB-8A07-42FF-BDAB-FC01CD573F39">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-04-10 11:12:28 UTC</createdTime>
+<ownerDesignName>modelagem_relacional</ownerDesignName>
+<engineerTo>
+<item key="58EE071A-4473-9917-86DF-10C1B1C732AF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>0</dataTypeSize>
+<ownDataTypeParameters>0,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="data_cadastro" id="9C9ADCB3-A98D-1F21-64A1-0BBAA0BF0451">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-04-10 11:12:34 UTC</createdTime>
+<ownerDesignName>modelagem_relacional</ownerDesignName>
+<engineerTo>
+<item key="58EE071A-4473-9917-86DF-10C1B1C732AF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="situacao_cliente" id="D7DA169B-FC4A-6FFB-B8C9-847B40E10E20">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-04-10 11:12:49 UTC</createdTime>
+<ownerDesignName>modelagem_relacional</ownerDesignName>
+<engineerTo>
+<item key="58EE071A-4473-9917-86DF-10C1B1C732AF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="valor_limite_compras" id="EC1F6466-F242-2319-97F7-55E8665676B9">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-04-10 11:13:50 UTC</createdTime>
+<ownerDesignName>modelagem_relacional</ownerDesignName>
+<engineerTo>
+<item key="58EE071A-4473-9917-86DF-10C1B1C732AF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,6,2</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D92575D5-BF80-2D9B-C037-30ABC084C3A5" name="TB_CLIENTES PK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-04-10 11:23:14 UTC</createdTime>
+<ownerDesignName>modelagem_relacional</ownerDesignName>
+<engineerTo>
+<item key="58EE071A-4473-9917-86DF-10C1B1C732AF" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>05AE2B21-9511-06CF-B4AB-9FEAA763515A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

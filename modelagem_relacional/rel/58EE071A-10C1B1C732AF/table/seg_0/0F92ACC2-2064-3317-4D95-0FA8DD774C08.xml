@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0F92ACC2-2064-3317-4D95-0FA8DD774C08" name="TELEFONE">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-04-10 12:26:37 UTC</createdTime>
+<generatorID>B9D51009-A6B5-4A1C-5C23-6BE015CDD9EB</generatorID>
+<ownerDesignName>modelagem_relacional</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="telefone_id" id="4BAEC22C-DC64-33FC-4616-69FBE62FB6AD">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-04-10 12:26:37 UTC</createdTime>
+<generatorID>E30E2EA2-2921-EBA2-8AD7-4BCD537B788D</generatorID>
+<ownerDesignName>modelagem_relacional</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ddd" id="F24A4CA8-FC60-2888-A1B3-9653CE7797B6">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-04-10 12:26:37 UTC</createdTime>
+<generatorID>19DC29C2-DAC0-B6AE-79B6-59E190B7206A</generatorID>
+<ownerDesignName>modelagem_relacional</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="numero" id="C39E961C-B527-1D88-EE41-EC3A3EF6DD08">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-04-10 12:26:37 UTC</createdTime>
+<generatorID>3EEDF76A-22C3-787A-00BD-A9F23661E1F0</generatorID>
+<ownerDesignName>modelagem_relacional</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="observacao" id="7DC3F82E-7E05-204F-8544-A21717EF376F">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-04-10 12:26:37 UTC</createdTime>
+<generatorID>86537CD5-2815-1338-4D13-A2966D03D59F</generatorID>
+<ownerDesignName>modelagem_relacional</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TB_CLIENTES_cliente_id" id="87BA9704-58DD-C385-1A70-61642A46B134">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-04-10 12:26:37 UTC</createdTime>
+<generatorID>31041C37-36BC-1F5A-9380-F22AB2C8A358</generatorID>
+<ownerDesignName>modelagem_relacional</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F0192807-41D8-4C90-D963-E70CF374C0F1" referredColumn="B21E7DEA-87E3-1142-B279-671158CFF499"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F62B23BE-5F63-6486-9A5F-4A0A2480E389" name="TELEFONE_PK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-04-10 12:26:37 UTC</createdTime>
+<generatorID>B37AC843-C24C-F9BA-CDF8-B247E21ECFAF</generatorID>
+<ownerDesignName>modelagem_relacional</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4BAEC22C-DC64-33FC-4616-69FBE62FB6AD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F3ACFB64-7F59-0EBB-D139-2464AA1FC44F" name="TELEFONE_ddd_numero_UN">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-04-10 12:26:37 UTC</createdTime>
+<generatorID>8A24211E-B1E0-01E1-E8D8-9E92E63E05EB</generatorID>
+<ownerDesignName>modelagem_relacional</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F24A4CA8-FC60-2888-A1B3-9653CE7797B6"/>
+<colUsage columnID="C39E961C-B527-1D88-EE41-EC3A3EF6DD08"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EDE06FC2-2989-11B7-D558-1F027217E55F" name="TELEFONE_TB_CLIENTES_FK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-04-10 12:26:37 UTC</createdTime>
+<generatorID>B7637131-3D83-BE99-C5FD-6C35D287B289</generatorID>
+<ownerDesignName>modelagem_relacional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="87BA9704-58DD-C385-1A70-61642A46B134"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

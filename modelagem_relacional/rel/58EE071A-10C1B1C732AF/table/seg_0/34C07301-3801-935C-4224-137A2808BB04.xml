@@ -1,0 +1,134 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="34C07301-3801-935C-4224-137A2808BB04" name="PRODUTO">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-04-10 12:26:37 UTC</createdTime>
+<generatorID>D6122145-6ABE-C38F-E158-42F1E54F6F10</generatorID>
+<ownerDesignName>modelagem_relacional</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="produto_id" id="22FDFC7D-6858-F639-5C1E-ADA541CFC97C">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-04-10 12:26:37 UTC</createdTime>
+<generatorID>72EE4A64-8A53-57B6-CB93-73D48AEBF7CD</generatorID>
+<ownerDesignName>modelagem_relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nome" id="3549554A-3F8D-E423-6232-0F5F3236888D">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-04-10 12:26:37 UTC</createdTime>
+<generatorID>940239FA-DCF4-963C-D2AD-6EBB02A3844A</generatorID>
+<ownerDesignName>modelagem_relacional</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="quantidade_estoque" id="7A18B806-B86E-2CBC-E182-3398803FACA4">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-04-10 12:26:37 UTC</createdTime>
+<generatorID>A3BFD77B-D1B9-C4F1-2BD3-C8DDB0A89FDB</generatorID>
+<ownerDesignName>modelagem_relacional</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="gaveta" id="A99F4093-BD10-9604-1CA4-B5773CC6DA5B">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-04-10 12:26:37 UTC</createdTime>
+<generatorID>BC391F40-C275-F128-AF46-A1E34CE8DAEA</generatorID>
+<ownerDesignName>modelagem_relacional</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="modulo" id="918C338C-C2EB-6743-128A-8F0004C9A2C4">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-04-10 12:26:37 UTC</createdTime>
+<generatorID>A41467D5-7C90-C930-0B05-FF036613DB26</generatorID>
+<ownerDesignName>modelagem_relacional</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="prateleira" id="CF82521E-3175-156A-3617-4119BB46AB6D">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-04-10 12:26:37 UTC</createdTime>
+<generatorID>576632FA-0718-4D09-FE75-5E18C8054A6B</generatorID>
+<ownerDesignName>modelagem_relacional</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="situacao_produto" id="49958437-00C3-A05F-53C8-C648B801E342">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-04-10 12:26:37 UTC</createdTime>
+<generatorID>583E547E-6469-DCE6-5BA6-84939CB9A2D2</generatorID>
+<ownerDesignName>modelagem_relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="preco" id="15AA20CA-041A-0072-8F64-02F38795CE43">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-04-10 12:26:37 UTC</createdTime>
+<generatorID>54E772E0-D25B-4566-B7EB-A6ED5D365461</generatorID>
+<ownerDesignName>modelagem_relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,6,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="data_alteracao_preco" id="E54DA5DB-38E2-2442-D482-AC9B5C3E45CE">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-04-10 12:26:37 UTC</createdTime>
+<generatorID>0AC75E17-E02E-DA8B-74C4-2F9238C3E7B3</generatorID>
+<ownerDesignName>modelagem_relacional</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C2C1889E-A4E2-72EC-8C8F-CE3176F331BD" name="PRODUTO_PK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-04-10 12:26:37 UTC</createdTime>
+<generatorID>D2A7161E-E5B2-ADD6-EEA9-E70FC3C48B1E</generatorID>
+<ownerDesignName>modelagem_relacional</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="22FDFC7D-6858-F639-5C1E-ADA541CFC97C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

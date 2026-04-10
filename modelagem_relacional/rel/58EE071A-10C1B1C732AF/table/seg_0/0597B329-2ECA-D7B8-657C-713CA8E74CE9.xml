@@ -1,0 +1,157 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0597B329-2ECA-D7B8-657C-713CA8E74CE9" name="TB_CLIENTES">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-04-10 12:26:37 UTC</createdTime>
+<generatorID>7AEF922F-9324-A625-8935-7FAB7C7CC757</generatorID>
+<ownerDesignName>modelagem_relacional</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cliente_id" id="B21E7DEA-87E3-1142-B279-671158CFF499">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-04-10 12:26:37 UTC</createdTime>
+<generatorID>05AE2B21-9511-06CF-B4AB-9FEAA763515A</generatorID>
+<ownerDesignName>modelagem_relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nome" id="440BB9DA-A6C4-3C47-A74F-B24E64E038FA">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-04-10 12:26:37 UTC</createdTime>
+<generatorID>A41BB811-88C1-349E-B2C0-1CE92E45FCCC</generatorID>
+<ownerDesignName>modelagem_relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="logradouro" id="9EBFE2AF-5ACB-833E-EB2D-96BECF82B7BF">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-04-10 12:26:37 UTC</createdTime>
+<generatorID>68ADA434-2B7B-B8E7-6A2B-02182F06529D</generatorID>
+<ownerDesignName>modelagem_relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="numero" id="F4C14647-6BE0-ED60-C41B-AA755F590DE6">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-04-10 12:26:37 UTC</createdTime>
+<generatorID>05C92433-AFF6-5F6D-7C98-B1DB0312B401</generatorID>
+<ownerDesignName>modelagem_relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="complemento" id="2355A0C0-425C-75D4-F475-7F89AF7CBD75">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-04-10 12:26:37 UTC</createdTime>
+<generatorID>9E52D7DB-2FF3-DFDF-1E08-7EA4D78B2442</generatorID>
+<ownerDesignName>modelagem_relacional</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="bairro" id="B4DEA879-A67E-5880-D251-2E65F3846623">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-04-10 12:26:37 UTC</createdTime>
+<generatorID>B550B1AC-4B5A-42F8-3D4A-C43A65F904A9</generatorID>
+<ownerDesignName>modelagem_relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="uf" id="F0C073B9-5E5B-19C0-6F6E-BC4CA67AA9F2">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-04-10 12:26:37 UTC</createdTime>
+<generatorID>FA865B10-7318-DCF1-FD46-467162D1599A</generatorID>
+<ownerDesignName>modelagem_relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cep" id="4ABBBD37-A1F7-6F80-30A1-9DA9F151D1FB">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-04-10 12:26:37 UTC</createdTime>
+<generatorID>82EF48AB-8A07-42FF-BDAB-FC01CD573F39</generatorID>
+<ownerDesignName>modelagem_relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>0</dataTypeSize>
+<ownDataTypeParameters>0,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="data_cadastro" id="58394562-8EC9-CF29-A6E4-1CD5AE9015DD">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-04-10 12:26:37 UTC</createdTime>
+<generatorID>9C9ADCB3-A98D-1F21-64A1-0BBAA0BF0451</generatorID>
+<ownerDesignName>modelagem_relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="situacao_cliente" id="7832625E-8DB5-C90F-6E64-2DF0C723CFAF">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-04-10 12:26:37 UTC</createdTime>
+<generatorID>D7DA169B-FC4A-6FFB-B8C9-847B40E10E20</generatorID>
+<ownerDesignName>modelagem_relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="valor_limite_compras" id="306B4D4F-6D00-492E-C7C6-F48BBF152B5B">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-04-10 12:26:37 UTC</createdTime>
+<generatorID>EC1F6466-F242-2319-97F7-55E8665676B9</generatorID>
+<ownerDesignName>modelagem_relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,6,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CC9C0760-503F-4945-3C9A-B7DCC02736C6" name="TB_CLIENTES_PK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-04-10 12:26:37 UTC</createdTime>
+<generatorID>D92575D5-BF80-2D9B-C037-30ABC084C3A5</generatorID>
+<ownerDesignName>modelagem_relacional</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B21E7DEA-87E3-1142-B279-671158CFF499"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
