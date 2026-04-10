@@ -15,6 +15,16 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cliente_id" id="05AE2B21-9511-06CF-B4AB-9FEAA763515A">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-04-10 11:21:54 UTC</createdTime>
+<ownerDesignName>SQL_clientes</ownerDesignName>
+<engineerTo>
+<item key="58EE071A-4473-9917-86DF-10C1B1C732AF" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 <Attribute name="nome" id="A41BB811-88C1-349E-B2C0-1CE92E45FCCC">
 <createdBy>labsfiap</createdBy>
 <createdTime>2026-04-10 11:10:28 UTC</createdTime>
@@ -32,7 +42,6 @@
 <engineerTo>
 <item key="58EE071A-4473-9917-86DF-10C1B1C732AF" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
@@ -43,7 +52,6 @@
 <engineerTo>
 <item key="58EE071A-4473-9917-86DF-10C1B1C732AF" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
@@ -65,7 +73,6 @@
 <engineerTo>
 <item key="58EE071A-4473-9917-86DF-10C1B1C732AF" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
@@ -76,7 +83,6 @@
 <engineerTo>
 <item key="58EE071A-4473-9917-86DF-10C1B1C732AF" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
@@ -87,7 +93,6 @@
 <engineerTo>
 <item key="58EE071A-4473-9917-86DF-10C1B1C732AF" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
@@ -98,7 +103,6 @@
 <engineerTo>
 <item key="58EE071A-4473-9917-86DF-10C1B1C732AF" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
@@ -109,7 +113,6 @@
 <engineerTo>
 <item key="58EE071A-4473-9917-86DF-10C1B1C732AF" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
@@ -120,9 +123,22 @@
 <engineerTo>
 <item key="58EE071A-4473-9917-86DF-10C1B1C732AF" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D92575D5-BF80-2D9B-C037-30ABC084C3A5" name="TB_CLIENTES PK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-04-10 11:23:14 UTC</createdTime>
+<ownerDesignName>SQL_clientes</ownerDesignName>
+<engineerTo>
+<item key="58EE071A-4473-9917-86DF-10C1B1C732AF" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>05AE2B21-9511-06CF-B4AB-9FEAA763515A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>

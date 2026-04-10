@@ -15,9 +15,39 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="Attribute_1" id="19DC29C2-DAC0-B6AE-79B6-59E190B7206A">
+<Attribute name="telefone_id" id="E30E2EA2-2921-EBA2-8AD7-4BCD537B788D">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-04-10 11:31:08 UTC</createdTime>
+<ownerDesignName>SQL_clientes</ownerDesignName>
+<engineerTo>
+<item key="58EE071A-4473-9917-86DF-10C1B1C732AF" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ddd" id="19DC29C2-DAC0-B6AE-79B6-59E190B7206A">
 <createdBy>labsfiap</createdBy>
 <createdTime>2026-04-10 11:16:30 UTC</createdTime>
+<ownerDesignName>SQL_clientes</ownerDesignName>
+<engineerTo>
+<item key="58EE071A-4473-9917-86DF-10C1B1C732AF" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="numero" id="3EEDF76A-22C3-787A-00BD-A9F23661E1F0">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-04-10 11:21:09 UTC</createdTime>
+<ownerDesignName>SQL_clientes</ownerDesignName>
+<engineerTo>
+<item key="58EE071A-4473-9917-86DF-10C1B1C732AF" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="observacao" id="86537CD5-2815-1338-4D13-A2966D03D59F">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-04-10 11:21:26 UTC</createdTime>
 <ownerDesignName>SQL_clientes</ownerDesignName>
 <engineerTo>
 <item key="58EE071A-4473-9917-86DF-10C1B1C732AF" value="true"/>
@@ -26,5 +56,45 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="cliente_id" id="31041C37-36BC-1F5A-9380-F22AB2C8A358">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-04-10 11:38:58 UTC</createdTime>
+<generatorID>B7637131-3D83-BE99-C5FD-6C35D287B289</generatorID>
+<ownerDesignName>SQL_clientes</ownerDesignName>
+<engineerTo>
+<item key="58EE071A-4473-9917-86DF-10C1B1C732AF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>05AE2B21-9511-06CF-B4AB-9FEAA763515A</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B37AC843-C24C-F9BA-CDF8-B247E21ECFAF" name="TELEFONE PK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-04-10 11:26:53 UTC</createdTime>
+<ownerDesignName>SQL_clientes</ownerDesignName>
+<engineerTo>
+<item key="58EE071A-4473-9917-86DF-10C1B1C732AF" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E30E2EA2-2921-EBA2-8AD7-4BCD537B788D</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="8A24211E-B1E0-01E1-E8D8-9E92E63E05EB" name="TB_TELEFONES_DDD_NUMERO_UN">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-04-10 11:33:29 UTC</createdTime>
+<ownerDesignName>SQL_clientes</ownerDesignName>
+<engineerTo>
+<item key="58EE071A-4473-9917-86DF-10C1B1C732AF" value="true"/>
+</engineerTo>
+<newElementsIDs>19DC29C2-DAC0-B6AE-79B6-59E190B7206A,3EEDF76A-22C3-787A-00BD-A9F23661E1F0</newElementsIDs>
+<usedAttributes>
+<attributeRef>19DC29C2-DAC0-B6AE-79B6-59E190B7206A</attributeRef>
+<attributeRef>3EEDF76A-22C3-787A-00BD-A9F23661E1F0</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>
