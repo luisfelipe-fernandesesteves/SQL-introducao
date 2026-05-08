@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="CCA11DA5-D207-D35D-E2D8-C91532B0B2FF" name="TB_SALAS">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-04-24 11:03:05 UTC</createdTime>
+<ownerDesignName>MODELAGEM_CINEMA_1TDSPF</ownerDesignName>
+<engineerTo>
+<item key="258631DF-FC20-179D-50B5-8FEADB3906DC" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="SALA_ID" id="A39C6A2F-87DC-D9D6-4084-489BB38483CB">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-04-24 11:06:20 UTC</createdTime>
+<ownerDesignName>MODELAGEM_CINEMA_1TDSPF</ownerDesignName>
+<engineerTo>
+<item key="258631DF-FC20-179D-50B5-8FEADB3906DC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3</dataTypeSize>
+<ownDataTypeParameters>3,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TIPO_SALA" id="97C206DE-C498-D776-B8A3-89950ABE7DD7">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-04-24 11:10:06 UTC</createdTime>
+<ownerDesignName>MODELAGEM_CINEMA_1TDSPF</ownerDesignName>
+<engineerTo>
+<item key="258631DF-FC20-179D-50B5-8FEADB3906DC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NOME_SALA" id="4B9B2A63-C436-84C4-0F54-DA76470CDE6D">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-04-24 11:13:47 UTC</createdTime>
+<ownerDesignName>MODELAGEM_CINEMA_1TDSPF</ownerDesignName>
+<engineerTo>
+<item key="258631DF-FC20-179D-50B5-8FEADB3906DC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="6060032B-7CA5-5FAD-9529-A2304B05C153" name="TB_SALAS PK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-04-24 11:14:16 UTC</createdTime>
+<ownerDesignName>MODELAGEM_CINEMA_1TDSPF</ownerDesignName>
+<engineerTo>
+<item key="258631DF-FC20-179D-50B5-8FEADB3906DC" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A39C6A2F-87DC-D9D6-4084-489BB38483CB</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

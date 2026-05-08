@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="3E6CA90C-6CDF-ABCE-D28A-AA7954975F05" containerWithKeyObject="7390E0D2-7AAE-B4A4-FF8F-B0D8C72624FC" localFKIndex="29C9668F-6F31-9947-AF80-B4DB9885A4AA" name="TB_INGRESSOS_TB_SESSOES_FK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-05-08 11:03:38 UTC</createdTime>
+<generatorID>9094F276-015D-5764-E7EC-E5A169F92EDA</generatorID>
+<ownerDesignName>MODELAGEM_CINEMA_1TDSPF</ownerDesignName>
+<referredTableLongName>TB_SESSOES</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>F699C69F-B0A8-0784-42D4-2CB7BAD55383</referredTableID>
+<keyObject>E4780A65-33B8-3B04-9172-CE68BAC716EE</keyObject>
+<referredKeyID>E4780A65-33B8-3B04-9172-CE68BAC716EE</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>SESSAO_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

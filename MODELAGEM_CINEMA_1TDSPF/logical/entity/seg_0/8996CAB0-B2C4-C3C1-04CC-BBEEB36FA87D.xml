@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8996CAB0-B2C4-C3C1-04CC-BBEEB36FA87D" name="TB_CLIENTES">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-04-24 11:07:47 UTC</createdTime>
+<ownerDesignName>MODELAGEM_CINEMA_1TDSPF</ownerDesignName>
+<engineerTo>
+<item key="258631DF-FC20-179D-50B5-8FEADB3906DC" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cliente_id" id="712BC499-9C8B-BB61-FB67-8589016640DD">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-04-24 11:54:27 UTC</createdTime>
+<ownerDesignName>MODELAGEM_CINEMA_1TDSPF</ownerDesignName>
+<engineerTo>
+<item key="258631DF-FC20-179D-50B5-8FEADB3906DC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nome" id="079F3E32-5F6A-C4A9-D4EF-8A33A676035F">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-04-24 11:54:38 UTC</createdTime>
+<ownerDesignName>MODELAGEM_CINEMA_1TDSPF</ownerDesignName>
+<engineerTo>
+<item key="258631DF-FC20-179D-50B5-8FEADB3906DC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="BF051978-18B5-0758-BA67-988DF209C618" name="TB_CLIENTES PK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-04-24 11:54:37 UTC</createdTime>
+<ownerDesignName>MODELAGEM_CINEMA_1TDSPF</ownerDesignName>
+<engineerTo>
+<item key="258631DF-FC20-179D-50B5-8FEADB3906DC" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>712BC499-9C8B-BB61-FB67-8589016640DD</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

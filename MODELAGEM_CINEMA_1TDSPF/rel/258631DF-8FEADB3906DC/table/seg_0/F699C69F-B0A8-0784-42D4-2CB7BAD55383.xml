@@ -1,0 +1,123 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F699C69F-B0A8-0784-42D4-2CB7BAD55383" name="TB_SESSOES">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-05-08 11:03:38 UTC</createdTime>
+<generatorID>FCC044A4-FF1B-2844-E530-5C4EDEB091A1</generatorID>
+<ownerDesignName>MODELAGEM_CINEMA_1TDSPF</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="SESSAO_ID" id="F7BC6AFB-8308-86D8-EA7C-EA9842E20D99">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-05-08 11:03:38 UTC</createdTime>
+<generatorID>CA3B98ED-D6B5-0B4A-56EB-D0C588593393</generatorID>
+<ownerDesignName>MODELAGEM_CINEMA_1TDSPF</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="HORARIO" id="849E5BFA-8327-7816-8FB2-A04BCC7C3C5C">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-05-08 11:03:38 UTC</createdTime>
+<generatorID>7CD03CEC-CE8F-A45D-66FD-33E6955EB054</generatorID>
+<ownerDesignName>MODELAGEM_CINEMA_1TDSPF</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TB_SALAS_SALA_ID" id="E5E074BB-D542-4F2E-607F-CF493288ACB6">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-05-08 11:03:38 UTC</createdTime>
+<generatorID>5203CEAB-89F0-5F98-1C71-A1814C5EED5A</generatorID>
+<ownerDesignName>MODELAGEM_CINEMA_1TDSPF</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="316E1A4E-6CBD-2F82-6A65-8E3476D6D6D4" referredColumn="576FBC3A-7529-E356-0D18-D7955781F1C3"/>
+</associations>
+</Column>
+<Column name="TB_FILMES_FILME_ID" id="9D6169F1-01D1-CCA6-88D3-1E442DF40637">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-05-08 11:03:38 UTC</createdTime>
+<generatorID>E80E82A1-1AB6-5BE8-465F-239EA9D94F1F</generatorID>
+<ownerDesignName>MODELAGEM_CINEMA_1TDSPF</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="29D86EF8-47D2-5EBC-A3A6-54258B78EABF" referredColumn="178C040D-306A-FB68-DD8D-AF21ADBE6AAD"/>
+</associations>
+</Column>
+<Column name="DATA_EXIBICAO_INICIO" id="33F778CA-B6D0-3473-5AA8-692A3BCE5A2A">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-05-08 11:03:38 UTC</createdTime>
+<generatorID>8C6B9CF0-36D3-8D8B-6A67-E4B91AD850EE</generatorID>
+<ownerDesignName>MODELAGEM_CINEMA_1TDSPF</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DATA_EXIBICAO_FIM" id="B2D4B30E-8D42-7F12-69FB-E33B9803C08E">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-05-08 11:03:38 UTC</createdTime>
+<generatorID>E0315C42-20D4-80BD-670C-0AD322F5123E</generatorID>
+<ownerDesignName>MODELAGEM_CINEMA_1TDSPF</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E4780A65-33B8-3B04-9172-CE68BAC716EE" name="TB_SESSOES_PK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-05-08 11:03:38 UTC</createdTime>
+<generatorID>B8D42B6E-B3E1-B573-CCB3-C08366764800</generatorID>
+<ownerDesignName>MODELAGEM_CINEMA_1TDSPF</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F7BC6AFB-8308-86D8-EA7C-EA9842E20D99"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2F8A0BDD-A993-E58C-AB62-88E5A40F6183" name="TB_SESSOES_TB_SALAS_FK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-05-08 11:03:38 UTC</createdTime>
+<generatorID>C1D6E75F-6D79-98C7-C906-1063D225BE3A</generatorID>
+<ownerDesignName>MODELAGEM_CINEMA_1TDSPF</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E5E074BB-D542-4F2E-607F-CF493288ACB6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B3E8E3D2-F1E3-FF39-8ADD-0A23A6974808" name="TB_SESSOES_TB_FILMES_FK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-05-08 11:03:38 UTC</createdTime>
+<generatorID>33B6E4F3-A346-DAB4-04EF-8BD08CF60B82</generatorID>
+<ownerDesignName>MODELAGEM_CINEMA_1TDSPF</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9D6169F1-01D1-CCA6-88D3-1E442DF40637"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

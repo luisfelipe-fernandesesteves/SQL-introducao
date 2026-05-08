@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="B3E87FD9-9AF6-A10D-8AE6-F293E624C5AB" containerWithKeyObject="7390E0D2-7AAE-B4A4-FF8F-B0D8C72624FC" localFKIndex="2D17E997-88A3-5703-1D2A-6213FA7EAB45" name="TB_INGRESSOS_TB_ASSENTOS_FK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-05-08 11:03:38 UTC</createdTime>
+<generatorID>6A54DA5A-FAA5-472D-1A11-16E12FF2DC33</generatorID>
+<ownerDesignName>MODELAGEM_CINEMA_1TDSPF</ownerDesignName>
+<referredTableLongName>TB_ASSENTOS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>2915B5A5-C238-47D6-CA27-58F3AB30E340</referredTableID>
+<keyObject>0A300F18-3F7C-0D41-4BCA-F64660CE73F9</keyObject>
+<referredKeyID>0A300F18-3F7C-0D41-4BCA-F64660CE73F9</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ASSENTO_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

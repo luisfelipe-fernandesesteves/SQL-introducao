@@ -1,0 +1,97 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="85B2B467-B601-633B-1AA5-3ECAE94FD935" name="TB_FILMES">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-04-24 11:02:45 UTC</createdTime>
+<ownerDesignName>MODELAGEM_CINEMA_1TDSPF</ownerDesignName>
+<engineerTo>
+<item key="258631DF-FC20-179D-50B5-8FEADB3906DC" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="FILME_ID" id="35CB8CAD-B0CE-B869-7215-A102A679D807">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-04-24 11:04:32 UTC</createdTime>
+<ownerDesignName>MODELAGEM_CINEMA_1TDSPF</ownerDesignName>
+<engineerTo>
+<item key="258631DF-FC20-179D-50B5-8FEADB3906DC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FAIXA_ETARIA" id="6052E8D7-90C3-281F-466B-871A7AEED718">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-04-24 11:05:00 UTC</createdTime>
+<ownerDesignName>MODELAGEM_CINEMA_1TDSPF</ownerDesignName>
+<engineerTo>
+<item key="258631DF-FC20-179D-50B5-8FEADB3906DC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TITULO" id="80EB8F9D-24B7-AA2C-3DFB-57D74A8ECE67">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-04-24 12:02:53 UTC</createdTime>
+<ownerDesignName>MODELAGEM_CINEMA_1TDSPF</ownerDesignName>
+<engineerTo>
+<item key="258631DF-FC20-179D-50B5-8FEADB3906DC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="LANCAMENTO" id="46C7CD24-DECF-D8B1-7CCF-8D189DC85A5A">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-04-24 12:03:06 UTC</createdTime>
+<ownerDesignName>MODELAGEM_CINEMA_1TDSPF</ownerDesignName>
+<engineerTo>
+<item key="258631DF-FC20-179D-50B5-8FEADB3906DC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DUBLADO_LEGENDADO" id="983D59B8-D347-6AE1-0FF6-939ABF9F0C54">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-04-24 12:03:33 UTC</createdTime>
+<ownerDesignName>MODELAGEM_CINEMA_1TDSPF</ownerDesignName>
+<engineerTo>
+<item key="258631DF-FC20-179D-50B5-8FEADB3906DC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D9473F40-6BD5-3F86-BDB9-BA55E964D80F" name="TB_FILMES PK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-04-24 11:20:34 UTC</createdTime>
+<ownerDesignName>MODELAGEM_CINEMA_1TDSPF</ownerDesignName>
+<engineerTo>
+<item key="258631DF-FC20-179D-50B5-8FEADB3906DC" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>35CB8CAD-B0CE-B869-7215-A102A679D807</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

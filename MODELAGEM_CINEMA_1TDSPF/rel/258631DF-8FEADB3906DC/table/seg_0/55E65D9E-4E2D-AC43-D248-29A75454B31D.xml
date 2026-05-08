@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="55E65D9E-4E2D-AC43-D248-29A75454B31D" name="TB_SALAS">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-05-08 11:03:38 UTC</createdTime>
+<generatorID>CCA11DA5-D207-D35D-E2D8-C91532B0B2FF</generatorID>
+<ownerDesignName>MODELAGEM_CINEMA_1TDSPF</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="SALA_ID" id="576FBC3A-7529-E356-0D18-D7955781F1C3">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-05-08 11:03:38 UTC</createdTime>
+<generatorID>A39C6A2F-87DC-D9D6-4084-489BB38483CB</generatorID>
+<ownerDesignName>MODELAGEM_CINEMA_1TDSPF</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3</dataTypeSize>
+<ownDataTypeParameters>3,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TIPO_SALA" id="6214327E-03B2-95D6-A610-6AE402A5D800">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-05-08 11:03:38 UTC</createdTime>
+<generatorID>97C206DE-C498-D776-B8A3-89950ABE7DD7</generatorID>
+<ownerDesignName>MODELAGEM_CINEMA_1TDSPF</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOME_SALA" id="54BAE8FF-067D-C45F-6F96-6EB32ECBCD7B">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-05-08 11:03:38 UTC</createdTime>
+<generatorID>4B9B2A63-C436-84C4-0F54-DA76470CDE6D</generatorID>
+<ownerDesignName>MODELAGEM_CINEMA_1TDSPF</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="254B4250-52AC-4EA2-EC45-52A5D5FDCFE6" name="TB_SALAS_PK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-05-08 11:03:38 UTC</createdTime>
+<generatorID>6060032B-7CA5-5FAD-9529-A2304B05C153</generatorID>
+<ownerDesignName>MODELAGEM_CINEMA_1TDSPF</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="576FBC3A-7529-E356-0D18-D7955781F1C3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

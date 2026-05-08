@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ProcessModel class="oracle.dbtools.crest.model.design.process.ProcessModel" name="Process Model" id="6F7963F4-F231-2BC6-F1E3-9F6CF86B738A">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-04-24 11:01:01 UTC</createdTime>
+<ownerDesignName>MODELAGEM_CINEMA_1TDSPF</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</ProcessModel>

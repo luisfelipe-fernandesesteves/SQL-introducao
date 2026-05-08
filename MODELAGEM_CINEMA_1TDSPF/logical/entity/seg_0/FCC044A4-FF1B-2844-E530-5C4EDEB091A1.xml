@@ -1,0 +1,110 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FCC044A4-FF1B-2844-E530-5C4EDEB091A1" name="TB_SESSOES">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-04-24 11:03:11 UTC</createdTime>
+<ownerDesignName>MODELAGEM_CINEMA_1TDSPF</ownerDesignName>
+<engineerTo>
+<item key="258631DF-FC20-179D-50B5-8FEADB3906DC" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="SESSAO_ID" id="CA3B98ED-D6B5-0B4A-56EB-D0C588593393">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-04-24 11:05:22 UTC</createdTime>
+<ownerDesignName>MODELAGEM_CINEMA_1TDSPF</ownerDesignName>
+<engineerTo>
+<item key="258631DF-FC20-179D-50B5-8FEADB3906DC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="HORARIO" id="7CD03CEC-CE8F-A45D-66FD-33E6955EB054">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-04-24 11:05:28 UTC</createdTime>
+<ownerDesignName>MODELAGEM_CINEMA_1TDSPF</ownerDesignName>
+<engineerTo>
+<item key="258631DF-FC20-179D-50B5-8FEADB3906DC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SALA_ID" id="5203CEAB-89F0-5F98-1C71-A1814C5EED5A">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-04-24 11:20:03 UTC</createdTime>
+<generatorID>C1D6E75F-6D79-98C7-C906-1063D225BE3A</generatorID>
+<ownerDesignName>MODELAGEM_CINEMA_1TDSPF</ownerDesignName>
+<engineerTo>
+<item key="258631DF-FC20-179D-50B5-8FEADB3906DC" value="true"/>
+</engineerTo>
+<referedAttribute>A39C6A2F-87DC-D9D6-4084-489BB38483CB</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FILME_ID" id="E80E82A1-1AB6-5BE8-465F-239EA9D94F1F">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-04-24 11:20:36 UTC</createdTime>
+<generatorID>33B6E4F3-A346-DAB4-04EF-8BD08CF60B82</generatorID>
+<ownerDesignName>MODELAGEM_CINEMA_1TDSPF</ownerDesignName>
+<engineerTo>
+<item key="258631DF-FC20-179D-50B5-8FEADB3906DC" value="true"/>
+</engineerTo>
+<referedAttribute>35CB8CAD-B0CE-B869-7215-A102A679D807</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DATA_EXIBICAO_INICIO" id="8C6B9CF0-36D3-8D8B-6A67-E4B91AD850EE">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-04-24 11:25:31 UTC</createdTime>
+<ownerDesignName>MODELAGEM_CINEMA_1TDSPF</ownerDesignName>
+<engineerTo>
+<item key="258631DF-FC20-179D-50B5-8FEADB3906DC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DATA_EXIBICAO_FIM" id="E0315C42-20D4-80BD-670C-0AD322F5123E">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-04-24 11:25:50 UTC</createdTime>
+<ownerDesignName>MODELAGEM_CINEMA_1TDSPF</ownerDesignName>
+<engineerTo>
+<item key="258631DF-FC20-179D-50B5-8FEADB3906DC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B8D42B6E-B3E1-B573-CCB3-C08366764800" name="TB_SESSOES PK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-04-24 11:26:38 UTC</createdTime>
+<ownerDesignName>MODELAGEM_CINEMA_1TDSPF</ownerDesignName>
+<engineerTo>
+<item key="258631DF-FC20-179D-50B5-8FEADB3906DC" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>CA3B98ED-D6B5-0B4A-56EB-D0C588593393</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

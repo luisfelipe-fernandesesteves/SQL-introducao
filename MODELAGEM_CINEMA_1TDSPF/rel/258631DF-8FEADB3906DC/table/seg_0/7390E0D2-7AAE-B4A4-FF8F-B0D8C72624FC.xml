@@ -1,0 +1,177 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7390E0D2-7AAE-B4A4-FF8F-B0D8C72624FC" name="TB_INGRESSOS">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-05-08 11:03:38 UTC</createdTime>
+<generatorID>73AD3BC4-11A3-A3EA-7989-8AA31FE55C03</generatorID>
+<ownerDesignName>MODELAGEM_CINEMA_1TDSPF</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="INGRESSO_ID" id="9D4A1155-2D92-DBE5-E6EA-97AF3ED99DA0">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-05-08 11:03:38 UTC</createdTime>
+<generatorID>0B621BF5-8466-73ED-26F8-D376DA71D318</generatorID>
+<ownerDesignName>MODELAGEM_CINEMA_1TDSPF</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TB_SESSOES_SESSAO_ID" id="83811126-9D6E-739B-612E-2A87901C6439">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-05-08 11:03:38 UTC</createdTime>
+<generatorID>F3AB7D87-FC6E-3D90-0D85-257A53367909</generatorID>
+<ownerDesignName>MODELAGEM_CINEMA_1TDSPF</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3E6CA90C-6CDF-ABCE-D28A-AA7954975F05" referredColumn="F7BC6AFB-8308-86D8-EA7C-EA9842E20D99"/>
+</associations>
+</Column>
+<Column name="TB_ASSENTOS_ASSENTO_ID" id="A150CB22-74EA-D4EC-F19B-D99CE89B8926">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-05-08 11:03:38 UTC</createdTime>
+<generatorID>A7BD8DA4-0D4E-1197-EABF-48A7D69AE175</generatorID>
+<ownerDesignName>MODELAGEM_CINEMA_1TDSPF</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B3E87FD9-9AF6-A10D-8AE6-F293E624C5AB" referredColumn="7DAE172D-B4AA-B3A1-1E77-382400570F8B"/>
+</associations>
+</Column>
+<Column name="DATA_SESSAO" id="7876DCB8-A1B5-B1F5-C317-53CDDA0364AF">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-05-08 11:03:38 UTC</createdTime>
+<generatorID>2EB2CB87-FCC3-5115-1C6E-87F0E01A8046</generatorID>
+<ownerDesignName>MODELAGEM_CINEMA_1TDSPF</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TB_CLIENTES_cliente_id" id="3AA77942-2A7E-E046-3EDD-B2557E9D0A8B">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-05-08 11:03:38 UTC</createdTime>
+<generatorID>D8850BB0-9748-83F8-5426-7D0706F501C2</generatorID>
+<ownerDesignName>MODELAGEM_CINEMA_1TDSPF</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="08EB4695-4E75-9726-B272-795E20D20790" referredColumn="1D8AACEB-ABF7-AD7A-3279-DE23496D01ED"/>
+</associations>
+</Column>
+<Column name="ORIGEM" id="A8C68FBA-2294-43CB-7096-F894A43615D3">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-05-08 11:03:38 UTC</createdTime>
+<generatorID>F4B56685-A9DE-06BD-E835-54C271D9CAB8</generatorID>
+<ownerDesignName>MODELAGEM_CINEMA_1TDSPF</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VALOR_PAGAMENTO" id="8BE90DBE-7C43-089E-B342-049A57DD7700">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-05-08 11:03:38 UTC</createdTime>
+<generatorID>E1577310-0671-7CCF-BCD6-D897009C8E1E</generatorID>
+<ownerDesignName>MODELAGEM_CINEMA_1TDSPF</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,7,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TIPO_PAGAMENTO" id="8D3699F7-24EE-4C78-F3D1-B087814879C0">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-05-08 11:03:38 UTC</createdTime>
+<generatorID>13EF0921-A2F5-D3AE-3EA2-0E520F61C452</generatorID>
+<ownerDesignName>MODELAGEM_CINEMA_1TDSPF</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>8</dataTypeSize>
+<ownDataTypeParameters>8,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BD66A52B-B96D-1E0E-EF65-2688AE08E7CA" name="TB_INGRESSOS_PK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-05-08 11:03:38 UTC</createdTime>
+<generatorID>40365C19-CD04-B81C-D58E-1D86985A2E6B</generatorID>
+<ownerDesignName>MODELAGEM_CINEMA_1TDSPF</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9D4A1155-2D92-DBE5-E6EA-97AF3ED99DA0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8319EC76-3C9D-D6DC-72A7-C29DA1AB4F43" name="TB_INGRESSOS_SESSAO_ID_ASSENTO_ID_DATA_SESSAO_UN">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-05-08 11:03:38 UTC</createdTime>
+<generatorID>E1426579-611B-0F68-DC5D-0ED7D70464D4</generatorID>
+<ownerDesignName>MODELAGEM_CINEMA_1TDSPF</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="83811126-9D6E-739B-612E-2A87901C6439"/>
+<colUsage columnID="A150CB22-74EA-D4EC-F19B-D99CE89B8926"/>
+<colUsage columnID="7876DCB8-A1B5-B1F5-C317-53CDDA0364AF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="29C9668F-6F31-9947-AF80-B4DB9885A4AA" name="TB_INGRESSOS_TB_SESSOES_FK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-05-08 11:03:38 UTC</createdTime>
+<generatorID>9094F276-015D-5764-E7EC-E5A169F92EDA</generatorID>
+<ownerDesignName>MODELAGEM_CINEMA_1TDSPF</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="83811126-9D6E-739B-612E-2A87901C6439"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2D17E997-88A3-5703-1D2A-6213FA7EAB45" name="TB_INGRESSOS_TB_ASSENTOS_FK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-05-08 11:03:38 UTC</createdTime>
+<generatorID>6A54DA5A-FAA5-472D-1A11-16E12FF2DC33</generatorID>
+<ownerDesignName>MODELAGEM_CINEMA_1TDSPF</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A150CB22-74EA-D4EC-F19B-D99CE89B8926"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5B1D7D92-E039-5F7F-97C3-EAE83C04D013" name="TB_INGRESSOS_TB_CLIENTES_FK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-05-08 11:03:38 UTC</createdTime>
+<generatorID>C7CF818B-0761-2435-FFAE-F910DAA59DB9</generatorID>
+<ownerDesignName>MODELAGEM_CINEMA_1TDSPF</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3AA77942-2A7E-E046-3EDD-B2557E9D0A8B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
